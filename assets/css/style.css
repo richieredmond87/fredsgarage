@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Exo|Roboto&display=swap');
+
+/*-----------------------------------------------------------Header */
+header {
+    margin: 0;
+}
+
+.logo1 {
+  background: url("../images/mechanicphoto1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+ }
+
+.logo2 {
+  /* background: url("../images/mechanicphoto3.jpg"); */
+  background-color:#676767;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+ }
+
+.logo3 {
+  background: url("../images/mechanicphoto3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+  }
+
+.name {
+      color:#e67e22;
+      font-family: "Exo", sans-serif;
+      font-weight: 400;
+      font-size: 50px;
+      text-align: center;
+      margin-top: 100px;
+  }
+
+#nav {
+      margin-top: 100px;
+      text-align: center;
+  }
+
+  /*-----------------------------------------------------------Colours */
+
+.ui-menu-color-navs {
+      background-color: #e67e22;
+  }
+
+.menuitem {
+    text-align: center;
+    padding: 0;
+  }
+
+.menuitem a {
+    text-decoration: none;
+    color: #fafafa;
+    font-weight: 200;
+    font-size: 15px;
+    display: block;
+    height: 60px;
+    padding-top: 5px;
+}  
+
+.menuitem a i {
+    padding-top: 5px;
+    font-size: 20px;
+    display: block;
+    color: #fafafa;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+/*-----------------------------------------------------------Special paddings/margins/text */
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+   text-transform: uppercase; 
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+/*-----------------------------------------------------------Hover.css */
+
+.hvr-fade:hover {
+    background:rgba(0, 0, 0, 0.2);
+    height: 60px;
+}
+
+.social-links li a i:hover {
+    background: #e67e22;
+}
+
+.fg-icons i:hover {
+    color: #e67e22;
+}
+/*-----------------------------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    text-align:center;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    padding-top: 60px;
+}
+
+.social-links li a i {
+    width: 64px;
+    height: 64px;
+    padding: 12px 12px;
+    border-radius: 50%;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+#footer-details {
+   padding: 20px; 
+}
+
+.fg-icons {
+    padding: 20px;
+}
+
+.fg-icons i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+
+.list-group-flush {
+    color: #525252;
+    font-weight: 500;
+    font-size: 15px;
+}
