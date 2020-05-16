@@ -14,7 +14,6 @@ header {
  }
 
 .logo2 {
-  /* background: url("../images/mechanicphoto3.jpg"); */
   background-color:#676767;
   background-position: center;
   background-repeat: no-repeat;
@@ -79,6 +78,13 @@ header {
     text-transform: uppercase;
 }
 
+.bg-color-family-run {
+   background-color: #fed8b1;
+   padding: 0;
+}
+
+
+
 /*-----------------------------------------------------------Special paddings/margins/text */
 
 h1,
@@ -102,6 +108,27 @@ h4 {
     display: inline-block;
 }
 
+.row-table {
+    display: table; 
+}
+
+.section-column {
+    display: table-cell;
+    padding: 30px 30px 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo",sans-serif;
+    font-weight: 300;
+    margin-top: 25px; 
+}
+
+.row-table {
+    min-height: 460px;
+}
+
+
 /*-----------------------------------------------------------Hover.css */
 
 .hvr-fade:hover {
@@ -116,12 +143,24 @@ h4 {
 .fg-icons i:hover {
     color: #e67e22;
 }
+
+.btn-secondary:hover {
+    background:rgba(0, 0, 0, 0.5);
+    color: #e67e22;
+}
+
+.btn-success:hover {
+    color:#e67e22;
+    background-color: #525252;
+}
+
 /*-----------------------------------------------------------Footer */
 
 footer {
     background-color: #525252;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 80px;
+    max-height: 260px;
     margin: 0;
     text-align:center;
 }
@@ -169,6 +208,69 @@ footer {
 
 .list-group-flush {
     color: #525252;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/*-----------------------------------------------------------Three Home */
+
+.three-home-icon {
+    font-size: 26px;
+    color: #e67e22;
+    display: block;
+}
+
+.three-home-heading {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+/*-----------------------------------------------------------Three Booking */
+
+.three-booking-icon {
+    font-size: 26px;
+    color: #e67e22;
+    display: block;
+}
+
+.three-booking-heading {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+.btn-secondary {
+    margin-top: 30px;
+    background-color: #525252;
+    color: #fafafa;
+    border: none;
+    display: block;
+}
+
+.btn-success {
+    position: center;
+    margin-top: 30px;
+    background-color: #e67e22;
+    border: none;
+}
+.centerbtn {
+    text-align: center;
+}
+
+/*-----------------------------------------------------------Three Contact */
+
+.contact-info-icon {
     font-size: 15px;
+    color: #e67e22;
+    display: block;
+    margin-top: 20px;
+}
+
+.form-group {
+    font-size: 20px;
+}
+
+.customerinfo {
+
+    width: 100%;
 }
