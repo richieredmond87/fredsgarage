@@ -81,6 +81,7 @@ header {
 .bg-color-family-run {
    background-color: #fed8b1;
    padding: 0;
+   width: 100%;
 }
 
 
@@ -126,6 +127,13 @@ h4 {
 
 .row-table {
     min-height: 460px;
+}
+
+.thirds {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
 }
 
 
@@ -212,6 +220,9 @@ footer {
     font-size: 12px;
 }
 
+.list-inline {
+    margin-top: 20px;
+}
 /*-----------------------------------------------------------Three Home */
 
 .three-home-icon {
@@ -257,13 +268,28 @@ footer {
     text-align: center;
 }
 
+.centercont {
+    text-align: center;
+}
+
 /*-----------------------------------------------------------Three Contact */
 
-.contact-info-icon {
+.contact-info-iconsm {
     font-size: 15px;
     color: #e67e22;
     display: block;
     margin-top: 20px;
+} 
+
+.contact-info-icon {
+    font-size: 26px;
+    color: #e67e22;
+    display: block;
+}
+
+.contact-info-heading {
+    margin-bottom: 30px;
+    position: relative;
 }
 
 .form-group {
@@ -271,6 +297,30 @@ footer {
 }
 
 .customerinfo {
-
+    background-position: center;
+    position: relative;
     width: 100%;
+}
+.kidmap {
+  background: url("../images/kidmap.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 360px;
+}
+
+/*-----------------------------------------------------------About Us */
+
+.aboutus-heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.aboutus-choose {
+    text-align: center;
+}
+
+.aboutus-info-icon {
+    padding-right: 10px;
+    color: #e67e22;
 }
