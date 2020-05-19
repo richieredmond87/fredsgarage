@@ -19,6 +19,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 360px;
+  font-family:"Exo", sans-serif;
  }
 
 .logo3 {
@@ -31,7 +32,7 @@ header {
 
 .name {
       color:#e67e22;
-      font-family: "Exo", sans-serif;
+      font-family:"Exo", sans-serif;
       font-weight: 400;
       font-size: 50px;
       text-align: center;
@@ -52,6 +53,8 @@ header {
 .menuitem {
     text-align: center;
     padding: 0;
+    font-family:"Exo", sans-serif;
+    border-radius: 10px;
   }
 
 .menuitem a {
@@ -137,11 +140,13 @@ h4 {
 }
 
 
+
 /*-----------------------------------------------------------Hover.css */
 
 .hvr-fade:hover {
     background:rgba(0, 0, 0, 0.2);
     height: 60px;
+    border-radius: 10px;
 }
 
 .social-links li a i:hover {
@@ -168,7 +173,6 @@ footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 80px;
-    max-height: 260px;
     margin: 0;
     text-align:center;
 }
@@ -236,41 +240,49 @@ footer {
     position: relative;
 }
 
+
+.para {
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+p {
+    padding-top: 10px;
+}
 /*-----------------------------------------------------------Three Booking */
 
 .three-booking-icon {
     font-size: 26px;
     color: #e67e22;
-    display: block;
+    padding: 20px;
 }
 
 .three-booking-heading {
-    margin-bottom: 30px;
+    padding: 30px;
     position: relative;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 
 .btn-secondary {
-    margin-top: 30px;
+    margin: 30px;
     background-color: #525252;
     color: #fafafa;
     border: none;
     display: block;
+    position: relative;
+    text-align: center;
 }
 
 .btn-success {
-    position: center;
-    margin-top: 30px;
+   
+    margin: 30px;
     background-color: #e67e22;
     border: none;
-}
-.centerbtn {
+    position: relative;
     text-align: center;
 }
 
-.centercont {
-    text-align: center;
-}
 
 /*-----------------------------------------------------------Three Contact */
 
@@ -278,49 +290,90 @@ footer {
     font-size: 15px;
     color: #e67e22;
     display: block;
-    margin-top: 20px;
+   
 } 
 
 .contact-info-icon {
     font-size: 26px;
     color: #e67e22;
     display: block;
+    padding: 10px;
 }
 
 .contact-info-heading {
-    margin-bottom: 30px;
+    padding: 30px;
     position: relative;
+    text-align: center;
+    font-family: "Robot", sans-serif;
+    font-weight: 400;
+}
+
+.continfo {
+    padding-left: 30px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .form-group {
     font-size: 20px;
+    padding-left: 10px;
+    max-width: 300px;
+    
 }
 
 .customerinfo {
     background-position: center;
     position: relative;
     width: 100%;
+    min-height: 200px;
+    display: block;
+
 }
+
+.form-group-com {
+    font-size: 20px;
+    padding-left: 10px;
+    max-width: 500px;
+    min-width: 400px;
+}
+
 .kidmap {
   background: url("../images/kidmap.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 360px;
+  min-height: 300px;
+  min-width: 200px;
+  
+}
+
+.cust-inf-btn {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    background-position: center;
 }
 
 /*-----------------------------------------------------------About Us */
 
 .aboutus-heading {
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
+    
+   
 }
 
 .aboutus-choose {
     text-align: center;
+    margin: 0px;
+    min-height: 180px;
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
 }
+
 
 .aboutus-info-icon {
     padding-right: 10px;
     color: #e67e22;
+    text-align: center;
 }

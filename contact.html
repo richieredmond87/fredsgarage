@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css">
-    <script src="https://kit.fontawesome.com/788a2b2ffb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
    <title>Contact</title>
 </head>
@@ -22,16 +21,16 @@
                     <div class="row">
                         <div class="col">
                             <ul id="nav" class="list-inline">
-                                <li class="col-sm-2 ui-menu-color-navs list-inline-item menuitem">
+                                <li class="col-sm-12 col-md-4 col-lg-2 ui-menu-color-navs list-inline-item menuitem">
                                     <a href="index.html" class="hvr-fade"><i class="fas fa-home" aria-hidden="true"></i><span>Home</span></a>
                                 </li>
-                                <li class="col-sm-2 ui-menu-color-navs list-inline-item menuitem">
+                                <li class="col-sm-12 col-md-4 col-lg-2 ui-menu-color-navs list-inline-item menuitem">
                                     <a href="booking.html" class="hvr-fade"><i class="far fa-calendar-alt" aria-hidden="true"></i><span>Booking</span></a>
                                 </li>
-                                <li class="col-sm-2 ui-menu-color-navs list-inline-item menuitem">
+                                <li class="col-sm-12 col-md-4 col-lg-2 ui-menu-color-navs list-inline-item menuitem">
                                     <a href="contact.html" class="hvr-fade"><i class="fas fa-phone-alt" aria-hidden="true"></i><span>Contact</span></a>
                                 </li>
-                                <li class="col-sm-2 ui-menu-color-navs list-inline-item menuitem">
+                                <li class="col-sm-12 col-md-4 col-lg-2 ui-menu-color-navs list-inline-item menuitem">
                                     <a href="aboutus.html" class="hvr-fade"><i class="far fa-user-circle" aria-hidden="true"></i><span>About Us</span></a>
                                 </li>
                             </ul>
@@ -44,86 +43,57 @@
                 </div>
           </div> 
     </header>
-    <section class="container-fluid">
-        <div class="row row-table">
-            <div class="col-md-4 bg-color-family-run section-column">
-                <div class="row">
-                    <div class="col">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="contact-info-icon fa fa-home" aria-hidden="true"></i>
+    <section class="container-fluid bg-color-family-run">
+        <div class="row">
+            <div class="col-sm-4 col-md-12 col-lg-4">
+                <h3 class="contact-info-heading uppercase "><i class="contact-info-icon fa fa-home" aria-hidden="true"></i>Contact Information</h3>
+                    <ul class="list-inline continfo">
+                        <li><i class="contact-info-iconsm fa fa-map-marker-alt"></i>
+                        <h5 >Fred's Garage<br>
+                            345 Cave Stone rd,<br>
+                            Bedrock
+                        </h5></li>
+                        <li><i class="contact-info-iconsm fa fa-phone"></i>
+                        <h5>Phone:<br>
+                            555 23456</h5></li>
+                        <li><i class="contact-info-iconsm fa fa-envelope"></i>
+                        <h5>Email:<br> fredsgarage@hotwheels.com</h5></li>
+                    </ul>
+            </div>
+            <div class="col-sm-4 col-md-12 col-lg-4">
+                <h3 class="contact-info-heading uppercase"><i class="contact-info-icon fa fa-comment" aria-hidden="true"></i>Customer Info</h3>
+                    <form>
+                        <div class="form-row customerinfo">
+                            <div class="form-group">
+                            <label for="inputName">Name:</label>
+                            <input type="name" class="form-control" id="inputName" placeholder="name" required>
                             </div>
-                            <div class="col-10">
-                                <h4 class="contact-info-heading uppercase ">Contact Information</h4>
-                                <ul class="list-inline conci">
-                                    <li><i class="contact-info-iconsm fa fa-map-marker-alt"></i>
-                                    <h5>Fred's Garage<br>
-                                     345 Cave Stone rd,<br>
-                                     Bedrock
-                                    </h5></li>
-                                    <li><i class="contact-info-iconsm fa fa-phone"></i>
-                                    <h5>Phone:<br>
-                                     555 23456</h5></li>
-                                    <li><i class="contact-info-iconsm fa fa-envelope"></i>
-                                    <h5>Email:<br> fredsgarage@hotwheels.com</h5></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="contact-info-icon fa fa-comment" aria-hidden="true"></i>
-                            </div>
-                            <h4 class="contact-info-heading uppercase">Customer Info</h4>
-                                <form>
-                                    <div class="form-row customerinfo">
-                                        <div class="form-group">
-                                        <label for="inputName">Name:</label>
-                                        <input type="name" class="form-control" id="inputName" placeholder="name" required>
-                                        </div>
-                                        <div class="form-group ">
-                                        <label for="inputPhone">Phone:</label>
-                                        <input type="phone" class="form-control" id="inputPhone" placeholder="phone" required>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="email">Email:</label>
-                                        <input type="text" class="form-control" id="email" placeholder="email" required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="comments">Comment:</label>
-                                        <input type="text" class="form-control" id="comments" placeholder="comment" required>
-                                    </div>
-                                    <button type="submit" class="btn btn-success">Submit</button>
-                                </form>
-                            </div>
-                        
-                    </div>
-                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-4">
-                        <div class="row">
-                            <div class="col-2">
-                                <i class="contact-info-icon fa fa-map" aria-hidden="true"></i>
-                            </div>
-                            <div class="col-10">
-                                <h4 class="contact-info-heading uppercase">Our Location</h4>
-                                    <div class="kidmap">
-                                    </div>
+                            <div class="form-group ">
+                            <label for="inputPhone">Phone:</label>
+                            <input type="phone" class="form-control" id="inputPhone" placeholder="phone" required>
                             </div>
                         </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="text" class="form-control" id="email" placeholder="email" required>
+                        </div>
+                        <div class="form-group-com">
+                            <label for="comments">Comment:</label>
+                            <input type="text" class="form-control" id="comments" placeholder="comment" required>
+                        </div>
+                        <button type="submit" class="btn btn-success cust-inf-btn">Submit</button>
+                    </form>
+            </div>
+            <div class="col-sm-4 col-md-12 col-lg-4">
+                <h3 class="contact-info-heading uppercase"><i class="contact-info-icon fa fa-map" aria-hidden="true"></i>Our Location</h3>
+                   <div class="kidmap">
                     </div>
-                </div>
             </div>
         </div>
-        
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-md-12 col-lg-4">
                 <h5 class="uppercase general-sub">Opening Hours</h5>
                     <ul class="list-inline">
                         <li>Monday     9-6</li>
@@ -133,7 +103,7 @@
                         <li>Friday     9-6</li>
                     </ul>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-md-12 col-lg-4">
                 <h5 class="uppercase general-sub">Fred's Garage</h5>
                     
                     <address class="fg-icons">
@@ -143,23 +113,23 @@
                     <i class="fa fa-envelope" aria-hidden="true"></i>Email: fredsgarage@hotwheels.com
                     </address>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 col-md-12 col-lg-4">
                 <h5 class="uppercase general-sub">Social Media</h5>
                    <ul class="list-inline social-links"> 
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.facebook.com/">
                                 <i class="fa fa-facebook" aria-hidden="true"></i>
                                 <span class="sr-only">Facebook</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.instagram.com/">
                                 <i class="fa fa-instagram" aria-hidden="true"></i>
                                 <span class="sr-only">Instagram</span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a target="_blank" href="#">
+                            <a target="_blank" href="https://www.youtube.com/">
                                 <i class="fa fa-youtube" aria-hidden="true"></i>
                                 <span class="sr-only">Youtube</span>
                             </a>
@@ -170,6 +140,6 @@
     
     </footer>
 
-    
+ <script src="https://kit.fontawesome.com/788a2b2ffb.js" crossorigin="anonymous"></script>   
 </body>
 </html>
