@@ -6,3 +6,17 @@ This website was created to help Fred's customers book a car service in more eas
 offers information about the garage, about the services they offer, where to find them and customer reviews
 
 ## UX ##
+
+## Features ##
+###Completed Features ###
+### Features left to complete###
+
+## Technologies Used ##
+
+## Testing ##
+
+## Deployment ##
+
+
+## Credits ##
+### photo's ###
