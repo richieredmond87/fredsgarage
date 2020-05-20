@@ -27,10 +27,18 @@ This website is a fast efficent way to book your car in for a range of services.
 ## Features ##
 
 ### Completed Features ###
+- Nav bar menu's with hover ability
+- Dropdown menu's 
+- Buttons
+- Form 
+- Icons
+- Social media links
+- responsive
+
 
 ### Features left to complete ###
--Center the dropdown and submit buttons on the Booking page 
--Center the Customer Info form on the Contact page
+- Center the dropdown and submit buttons on the Booking page 
+- Center the Customer Info form on the Contact page
 ## Technologies Used ##
 For this Project I used HTML5, CSS3, JS and BootstrapCDN
 For JS I used Bootsrap CDN https://kit.fontawesome.com/788a2b2ffb.js for the dropdown menu's
@@ -38,7 +46,7 @@ For JS I used Bootsrap CDN https://kit.fontawesome.com/788a2b2ffb.js for the dro
 I tested this website on how responsive it was on a desktop, IPad and Mobile when I came acroos responsive issues I changed them as needed.
 
 ## Deployment ##
-
+I deployed this website and in the final version i was really happy with my progress through out this project, one or two minor issues I would have liked to fix but ran ou of time but for my first ever solo coding project I am really happy.
 
 ## Credits ##
 I followed the User Centric Frontend Development mini project to start out my design and follow good pratices.
