@@ -2,6 +2,9 @@
 
 # Fred's Garage #
 
+link to live site: 
+https://richieredmond87.github.io/fredsgarage/
+
 This website was created to help Fred's customers book a car service in more easy, This site
 offers information about the garage, about the services they offer, where to find them and customer reviews
 
