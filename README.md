@@ -10,6 +10,9 @@ offers information about the garage, about the services they offer, where to fin
 
 ## UX ##
 Belowin Images is my Wireframe rough guidline idea
+Link:
+https://github.com/richieredmond87/fredsgarage/blob/master/assets/images/Fred'sGarageWireFrame.bmpr
+Or in: 
 ../images/Fred'sGarageWireFrame.bmpr
 
 This website is a fast efficent way to book your car in for a range of services.
